@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="graphics.MainWindow">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="692" height="901"/>
+    </constraints>
+    <properties>
+      <preferredSize width="1000" height="620"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <scrollpane id="6e9df" binding="commandsPane">
+        <constraints border-constraint="West"/>
+        <properties>
+          <autoscrolls value="true"/>
+          <horizontalScrollBarPolicy value="30"/>
+          <maximumSize width="32767" height="100"/>
+          <minimumSize width="14" height="100"/>
+          <preferredSize width="230" height="100"/>
+          <verticalScrollBarPolicy value="20"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="94339" binding="commandsPanel" layout-manager="GridLayoutManager" row-count="14" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="2">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints/>
+            <properties>
+              <alignmentY value="0.5"/>
+              <autoscrolls value="false"/>
+              <maximumSize width="2147483647" height="100"/>
+              <minimumSize width="200" height="100"/>
+              <preferredSize width="200" height="100"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="3fa4b" class="javax.swing.JButton" binding="clear">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <maximum-size width="220" height="28"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <preferredSize width="200" height="27"/>
+                  <text value="Очистить коллекцию"/>
+                </properties>
+              </component>
+              <component id="30c63" class="javax.swing.JButton" binding="filterGreater">
+                <constraints>
+                  <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <maximum-size width="220" height="28"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <preferredSize width="200" height="27"/>
+                  <text value="Отфильтровать по большему"/>
+                </properties>
+              </component>
+              <component id="32d63" class="javax.swing.JButton" binding="info">
+                <constraints>
+                  <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <maximum-size width="220" height="28"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <preferredSize width="200" height="27"/>
+                  <text value="Показать информацию"/>
+                </properties>
+              </component>
+              <component id="83031" class="javax.swing.JButton" binding="insert">
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <maximum-size width="220" height="28"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <preferredSize width="200" height="27"/>
+                  <text value="Добавить объект"/>
+                </properties>
+              </component>
+              <component id="3808d" class="javax.swing.JButton" binding="removeAll">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <maximum-size width="220" height="28"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <preferredSize width="200" height="27"/>
+                  <text value="Удалить все по цвету волос"/>
+                </properties>
+              </component>
+              <component id="ae0e5" class="javax.swing.JButton" binding="removeAny">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <maximum-size width="220" height="28"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <preferredSize width="200" height="27"/>
+                  <text value="Удалить один по цвету волос"/>
+                </properties>
+              </component>
+              <component id="945ad" class="javax.swing.JButton" binding="removeGreater">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <maximum-size width="220" height="28"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <preferredSize width="200" height="27"/>
+                  <text value="Удалить большие"/>
+                </properties>
+              </component>
+              <component id="4732d" class="javax.swing.JButton" binding="removeKey">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <maximum-size width="220" height="28"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Удалить по ключу"/>
+                </properties>
+              </component>
+              <component id="b2542" class="javax.swing.JButton" binding="replaceIfLower">
+                <constraints>
+                  <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <maximum-size width="220" height="28"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Заменить меньшие"/>
+                </properties>
+              </component>
+              <component id="f6bd3" class="javax.swing.JButton" binding="update">
+                <constraints>
+                  <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <maximum-size width="220" height="28"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Обновить объект"/>
+                </properties>
+              </component>
+              <component id="a9218" class="javax.swing.JButton" binding="show">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <maximum-size width="220" height="28"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <preferredSize width="200" height="27"/>
+                  <text value="Показать все объекты"/>
+                </properties>
+              </component>
+              <component id="d2187" class="javax.swing.JButton" binding="executeScript">
+                <constraints>
+                  <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <maximum-size width="220" height="28"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <preferredSize width="200" height="27"/>
+                  <text value="Выполнить скрипт"/>
+                </properties>
+              </component>
+              <component id="e8614" class="javax.swing.JButton" binding="help">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <maximum-size width="220" height="28"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <preferredSize width="200" height="27"/>
+                  <text value="Помощь"/>
+                </properties>
+              </component>
+              <component id="42101" class="javax.swing.JButton" binding="removeLower">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <maximum-size width="220" height="28"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Удалить меньшие"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </scrollpane>
+      <grid id="eef33" binding="footerPanel" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="10">
+        <margin top="12" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="South"/>
+        <properties>
+          <maximumSize width="2147483647" height="140"/>
+          <preferredSize width="177" height="140"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <scrollpane id="4c1ad" binding="messagesScrollPane">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="1497" class="javax.swing.JTextPane" binding="messagesTextPane">
+                <constraints/>
+                <properties>
+                  <editable value="false"/>
+                  <margin top="3" left="3" bottom="3" right="3"/>
+                  <minimumSize width="8" height="75"/>
+                  <preferredSize width="8" height="363"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+          <grid id="879a4" binding="currentUserPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="7fd22" class="javax.swing.JLabel" binding="currentUserLabel">
+                <constraints/>
+                <properties>
+                  <horizontalAlignment value="2"/>
+                  <horizontalTextPosition value="2"/>
+                  <labelFor value="6e9df"/>
+                  <text value="Текущий пользователь: "/>
+                </properties>
+              </component>
+              <component id="83958" class="javax.swing.JLabel" binding="user">
+                <constraints/>
+                <properties>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="9ff09" binding="headerPanel" layout-manager="FlowLayout" hgap="12" vgap="5" flow-align="2">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="c8c8f" class="javax.swing.JComboBox" binding="languageSelector">
+            <constraints/>
+            <properties>
+              <model>
+                <item value="ru"/>
+                <item value="en"/>
+                <item value="isl"/>
+                <item value="sq"/>
+              </model>
+            </properties>
+          </component>
+          <component id="aaf2e" class="javax.swing.JButton" binding="visualiseButton">
+            <constraints/>
+            <properties>
+              <text value="Визуализировать данные"/>
+            </properties>
+          </component>
+          <component id="1a180" class="javax.swing.JButton" binding="exit">
+            <constraints/>
+            <properties>
+              <text value="Выйти"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <scrollpane id="bbab1" binding="tableScrollPane">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="9d61e" class="javax.swing.JTable" binding="collectionTable">
+            <constraints/>
+            <properties>
+              <autoCreateRowSorter value="true"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>

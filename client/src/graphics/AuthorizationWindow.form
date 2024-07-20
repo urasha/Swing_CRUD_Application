@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="graphics.AuthorizationWindow">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="24" y="19" width="482" height="542"/>
+    </constraints>
+    <properties>
+      <preferredSize width="550" height="320"/>
+      <visible value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="73af0" binding="usernamePanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.1"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="62e60" class="javax.swing.JLabel" binding="usernameLabel">
+            <constraints/>
+            <properties>
+              <font name="Cambria" size="14"/>
+              <horizontalTextPosition value="2"/>
+              <labelFor value="c0ac3"/>
+              <preferredSize width="70" height="17"/>
+              <text value="Логин:"/>
+            </properties>
+          </component>
+          <component id="c0ac3" class="javax.swing.JTextField" binding="usernameField">
+            <constraints/>
+            <properties>
+              <alignmentX value="0.5"/>
+              <preferredSize width="151" height="31"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="1f562" binding="passwordPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.1"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="43e13" class="javax.swing.JLabel" binding="passwordLabel">
+            <constraints/>
+            <properties>
+              <font name="Cambria" size="14"/>
+              <horizontalTextPosition value="2"/>
+              <labelFor value="77f3b"/>
+              <preferredSize width="70" height="17"/>
+              <text value="Пароль:"/>
+            </properties>
+          </component>
+          <component id="77f3b" class="javax.swing.JPasswordField" binding="passwordField">
+            <constraints/>
+            <properties>
+              <preferredSize width="151" height="31"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="f8465" binding="header" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.2"/>
+        </constraints>
+        <properties>
+          <font name="Cambria"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="4532e" class="javax.swing.JLabel" binding="headerText">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <font name="Cambria" size="31"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <inheritsPopupMenu value="true"/>
+              <maximumSize width="906" height="120"/>
+              <minimumSize width="302" height="40"/>
+              <preferredSize width="302" height="40"/>
+              <text resource-bundle="resources/auth" key="welcome"/>
+            </properties>
+          </component>
+          <component id="2b1c7" class="javax.swing.JLabel" binding="smallText">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="Cambria" size="16" style="0"/>
+              <text value="введите свои данные"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="e4f77" binding="buttonsPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="20" left="0" bottom="0" right="0" weightx="0.0" weighty="0.035"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="baa79" class="javax.swing.JButton" binding="loginButton">
+            <constraints/>
+            <properties>
+              <font name="Cambria" size="13"/>
+              <maximumSize width="450" height="115"/>
+              <minimumSize width="150" height="35"/>
+              <preferredSize width="130" height="35"/>
+              <text value="Войти"/>
+            </properties>
+          </component>
+          <component id="8e9d6" class="javax.swing.JButton" binding="registerButton">
+            <constraints/>
+            <properties>
+              <font name="Cambria" size="13"/>
+              <preferredSize width="170" height="35"/>
+              <text value="Зарегистрироваться"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="777e4" class="javax.swing.JComboBox" binding="languageSelector">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="15" left="0" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="ru"/>
+            <item value="isl"/>
+            <item value="sq"/>
+            <item value="en"/>
+          </model>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
