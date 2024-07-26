@@ -9,7 +9,6 @@ The application is built on a client-server architecture.
 The application used multithreading technology (_thread pools_,  _synchronized_), localization support with _resource bundles_
 
 ### Stack:
-- Java Core
 - PostgreSQL
 - Java JDBC API
 - Java Swing
